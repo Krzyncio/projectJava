@@ -1,9 +1,6 @@
-package devices;
+package com.company.devices;
 
-public class Car {
-    final public Integer yearOfProduction;
-    final public String producer;
-    final public String model;
+public class Car extends Device {
     final public String color;
     Double value;
 
