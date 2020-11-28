@@ -1,6 +1,4 @@
-package creatures;
-
-import java.io.File;
+package com.company.creatures;
 
 public class Animal {
 
@@ -8,8 +6,23 @@ public class Animal {
     public String species;
     public Boolean isAlive = true;
     public String name;
-    File pic;
     public Double weight;
+
+    public void dayOfWork(){
+        weight-=0.5;
+        weight+=0.3;
+        weight-=0.5;
+        weight-=0.5;
+    }
+    public void dayOfWeek(){
+        weight-=0.5;
+        weight+=0.3;
+        weight-=0.5;
+        weight+=0.3;
+        weight-=0.5;
+        weight+=0.3;
+        weight+=0.3;
+    }
 
     public void takeForWalk() {
         if (this.isAlive) {

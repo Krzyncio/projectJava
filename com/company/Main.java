@@ -1,10 +1,6 @@
 package com.company;
 
-import com.company.creatures.Animal;
-import com.company.creatures.Human;
 import com.company.devices.Device;
-
-import java.text.DecimalFormat;
 
 public class Main {
 
@@ -12,6 +8,7 @@ public class Main {
 
         Device phonex = new Device();
         System.out.println(phonex);
+        
 
 //        Human you = new Human();
 //        you.weight = 10.0;

@@ -1,13 +1,13 @@
-package creatures;
+package com.company.creatures;
 
 import java.time.LocalDateTime;
 import java.util.Calendar;
-import java.util.zip.DataFormatException;
 
-public class Human {
+public class Human extends Animal {
     public String firstName;
     public String secondName;
     public Double salary;
+    public Animal animal;
 
     public Double getSalary() {
         Calendar cal = Calendar.getInstance();
